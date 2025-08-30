@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>فۆرمەکان - ديلان غفور</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  /* ===== Reset & Body ===== */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f6f7f9;
+    color: #333;
+  }
+
+  /* ===== Header ===== */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    z-index: 1000;
+    border-bottom: 3px solid #1a8f3c;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1a8f3c;
+    gap: 12px;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #27ae60;
+    object-fit: cover;
+  }
+
+  /* ===== Container ===== */
+  .container {
+    max-width: 1100px;
+    margin: 130px auto 40px;
+    padding: 0 20px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #1a8f3c;
+  }
+
+  /* ===== Grid ===== */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+  }
+
+  .grid a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    color: #1a8f3c;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border-top: 4px solid #1a8f3c;
+  }
+
+  .grid a:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border-top-color: #27ae60;
+  }
+
+  .grid a img {
+    width: 45px;
+    margin-bottom: 12px;
+  }
+
+  @media (max-width: 480px) {
+    h2 { font-size: 24px; }
+    .grid a { padding: 18px 15px; font-size: 14px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="1.png" alt="ديلان غفور">
+    ديلان غفور
+  </div>
+</header>
+
+<div class="container">
+  <h2>فۆڕمی پیویست هەڵبژێرە</h2>
+  <div class="grid">
+    <a href="https://ee.kobotoolbox.org/x/GIBNBuM2" target="_blank">
+      <img src="2.png" alt="">
+فۆرمی دەنگدەران
+    </a>
+    <a href="https://ee.kobotoolbox.org/x/x6qY0iJc" target="_blank">
+      <img src="3.png" alt="">
+فۆرمی سەردانی
+    </a>
+     <a href="https://ee.kobotoolbox.org/x/IfMEY8gb" target="_blank">
+      <img src="4.png" alt="">
+فۆرمی خۆبەخشەکان
+    </a>
+        </a>
+  </div>
+</div>
+
+</body>
+</html>
